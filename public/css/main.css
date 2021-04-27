@@ -8,6 +8,7 @@ body {
 * {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 a {
@@ -162,6 +163,33 @@ main h2 {
 
 .fa-heart {
   font-size: 1.7rem;
+}
+
+footer {
+  background-color: #353535;
+  color: white;
+  padding: 25px 20px 30px 20px;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+footer i {
+  font-size: 0.8rem;
+  margin-right: 7px;
+}
+
+.footer__logo {
+  font-family: Shrikhand;
+  font-size: 1rem;
+  display: flex;
+  margin-bottom: 25px;
 }
 
 @media screen and (max-width: 600px) {

@@ -28,13 +28,6 @@ header {
     }
 }
 
-.btn {
-    background: linear-gradient($secondary-color, $primary-color);
-    border-radius: 50px;
-    color: white;
-    padding: 14px 20px;
-}
-
 #funct-section {
     padding: 0 20px;
     margin-bottom: 40px;
@@ -146,31 +139,4 @@ main {
 
 .fa-heart {
     font-size: 1.7rem;
-}
-
-footer {
-    background-color: rgb(53, 53, 53);
-    color: white;
-    padding: 25px 20px 30px 20px;
-    a {
-        color: white;
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-    li {
-        font-size: 1rem;
-        margin-bottom: 10px;
-    }
-    i {
-        font-size: 0.8rem;
-        margin-right: 7px;
-    }
-}
-
-.footer__logo {
-    font-family: Shrikhand;
-    font-size: 1rem;
-    display: flex;
-    margin-bottom: 25px;
 }

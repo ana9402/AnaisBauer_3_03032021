@@ -1,7 +1,10 @@
 @import "./utils/variables";
+@import "./utils/mixins";
 @import "./base/base";
 @import "./components/buttons";
 @import "./layouts/header";
 @import "./layouts/footer";
 @import "./pages/index";
 @import "./pages/index-responsive";
+@import "./pages/menu-pages";
+@import "./pages/menu_pages-responsive";

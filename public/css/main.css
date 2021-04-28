@@ -136,16 +136,15 @@ footer i {
   margin-right: 15px;
 }
 
-main {
+#restaurants-section {
   background-color: #f6f6f6;
   padding: 50px 20px;
 }
-main h2 {
+#restaurants-section h2 {
   font-size: 1.5rem;
   margin-bottom: 20px;
 }
-
-#rest-list {
+#restaurants-section__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

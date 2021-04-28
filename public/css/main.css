@@ -135,6 +135,13 @@ footer i {
   color: grey;
   margin-right: 15px;
 }
+.funct-card:hover {
+  background-color: #f2eafb;
+  cursor: default;
+}
+.funct-card:hover i {
+  color: #9356DC;
+}
 
 #restaurants-section {
   background-color: #f6f6f6;

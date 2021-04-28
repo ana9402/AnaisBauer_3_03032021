@@ -23,6 +23,21 @@ a {
   padding: 14px 20px;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 2px 2px 10px grey;
+  padding: 30px 0 15px 0;
+  position: relative;
+}
+header .prev-btn {
+  position: absolute;
+  left: 5%;
+  font-size: 1.2rem;
+}
+
 footer {
   background-color: #353535;
   color: white;
@@ -48,14 +63,6 @@ footer i {
   font-size: 1rem;
   display: flex;
   margin-bottom: 25px;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-  box-shadow: 2px 2px 10px grey;
-  padding: 30px 0 15px 0;
-  position: relative;
 }
 
 #intro-section {

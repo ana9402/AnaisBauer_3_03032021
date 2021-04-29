@@ -301,7 +301,8 @@ footer i {
   .menu-section__list {
     flex-direction: column;
   }
-  .menu-section__list__cat {
+
+  .dishes-type {
     width: 100%;
   }
 }

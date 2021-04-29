@@ -17,11 +17,32 @@ a {
 }
 
 .btn {
+  display: inline-flex;
   background: linear-gradient(#FF79DA, #9356DC);
   color: white;
   border-radius: 50px;
   padding: 14px 20px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
   box-shadow: 2px 1px 8px #b3b0b0;
+}
+.btn:hover::after {
+  opacity: 1;
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50px;
+  opacity: 0;
+  z-index: -1;
+  background: linear-gradient(#ff93e1, #a16be0);
+  box-shadow: 3px 3px 8px #646464;
+  transition: opacity 250ms;
 }
 
 header {

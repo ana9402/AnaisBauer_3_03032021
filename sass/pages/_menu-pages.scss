@@ -60,14 +60,12 @@
 
 .dish-card {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     background-color: white;
     border-radius: 15px;
-    padding: 15px 30px 15px 15px;
     margin-bottom: 15px;
     transform-origin: center top;
     opacity: 0;
+    overflow: hidden;
     @include box-shadow;
     animation: fade-in 350ms cubic-bezier(.48,.37,.75,.33) forwards;
     @for $i from 1 through 3 {
@@ -76,18 +74,69 @@
         }
     }
     &__title {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0 15px 15px;
+        flex: 1;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
         h4 {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
             font-weight: 500;
             font-size: 1rem;
+            margin-bottom: 5px;
         }
         p {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
             font-weight: 300;
             font-size: 0.8rem;
         }
     }
     &__price {
+        display: flex;
+        align-items: center;
         font-size: 0.9rem;
+        font-weight: bold;
+        padding: 15px 0;
+        margin: 0 15px;
     }
+    &__animation {
+        margin-right: -70px;
+        transition: margin-right 500ms;
+        &__icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $tertiary-color;
+            color: white;
+            font-size: 1.5rem;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            width: 70px;
+            height: 100%;
+            & i {
+                transform: rotate(0turn);
+                transition: transform 500ms;
+                transition-delay: 100ms;
+            }
+        }
+    }
+    &:hover {
+        .dish-card__animation {
+            margin-right: 0;
+            &__icon {
+                & i {
+                    transform: rotate(1turn);
+                }
+            }
+        }
+    } 
 }
 
 @keyframes fade-in {

@@ -412,6 +412,9 @@ footer i {
 .dish-card--3 {
   animation-delay: 360ms;
 }
+.dish-card--4 {
+  animation-delay: 480ms;
+}
 .dish-card__title {
   display: flex;
   flex-direction: column;

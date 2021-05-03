@@ -229,6 +229,7 @@ footer i {
   margin-left: 10px;
   width: 250px;
   box-shadow: 2px 1px 8px #b3b0b0;
+  transition: all 300ms;
 }
 .funct-card__nb {
   display: flex;
@@ -250,6 +251,7 @@ footer i {
 .funct-card__label i {
   color: grey;
   margin-right: 15px;
+  transition: color 300ms;
 }
 .funct-card:hover {
   background-color: #f2eafb;

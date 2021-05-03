@@ -107,8 +107,8 @@
         margin: 0 15px;
     }
     &__animation {
-        margin-right: -70px;
-        transition: margin-right 500ms;
+        width: 0;
+        transition: width 500ms;
         &__icon {
             display: flex;
             justify-content: center;
@@ -118,18 +118,16 @@
             font-size: 1.5rem;
             border-top-right-radius: 15px;
             border-bottom-right-radius: 15px;
-            width: 70px;
             height: 100%;
             & i {
                 transform: rotate(0turn);
-                transition: transform 500ms;
-                transition-delay: 100ms;
+                transition: transform 500ms 100ms;
             }
         }
     }
     &:hover {
         .dish-card__animation {
-            margin-right: 0;
+            width: 70px;
             &__icon {
                 & i {
                     transform: rotate(1turn);

@@ -449,8 +449,8 @@ footer i {
   margin: 0 15px;
 }
 .dish-card__animation {
-  margin-right: -70px;
-  transition: margin-right 500ms;
+  width: 0;
+  transition: width 500ms;
 }
 .dish-card__animation__icon {
   display: flex;
@@ -461,16 +461,14 @@ footer i {
   font-size: 1.5rem;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  width: 70px;
   height: 100%;
 }
 .dish-card__animation__icon i {
   transform: rotate(0turn);
-  transition: transform 500ms;
-  transition-delay: 100ms;
+  transition: transform 500ms 100ms;
 }
 .dish-card:hover .dish-card__animation {
-  margin-right: 0;
+  width: 70px;
 }
 .dish-card:hover .dish-card__animation__icon i {
   transform: rotate(1turn);

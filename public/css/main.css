@@ -271,15 +271,17 @@ footer i {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 30px 0;
+  padding: 0 150px;
 }
 
 .rest-card {
   background-color: white;
-  width: 49%;
+  width: 48%;
   height: 250px;
   border-radius: 15px;
   position: relative;
+  margin-bottom: 25px;
+  box-shadow: 2px 1px 8px #b3b0b0;
 }
 .rest-card__link {
   position: absolute;
@@ -328,6 +330,10 @@ footer i {
 @media screen and (max-width: 991px) {
   .funct-card {
     width: 100%;
+  }
+
+  #restaurants-section__list {
+    padding: 0;
   }
 
   .rest-card {

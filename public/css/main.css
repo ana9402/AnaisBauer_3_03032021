@@ -120,6 +120,7 @@ footer i {
   margin-bottom: 25px;
 }
 
+/* LOADING SPINNER*/
 .loader {
   position: fixed;
   top: 0;
@@ -136,7 +137,7 @@ footer i {
 }
 .loader .spinner-icon {
   position: absolute;
-  top: 450px;
+  top: 45vh;
   font-size: 4.5rem;
   color: #9356DC;
   opacity: 0;
@@ -144,7 +145,7 @@ footer i {
 }
 .loader .spinner-circle {
   position: absolute;
-  top: 420px;
+  top: 42vh;
   width: 120px;
   height: 120px;
   border: 4px transparent solid;
@@ -180,6 +181,7 @@ footer i {
     opacity: 0;
   }
 }
+/* CONTENU DE LA PAGE */
 #intro-section {
   text-align: center;
   margin-bottom: 40px;

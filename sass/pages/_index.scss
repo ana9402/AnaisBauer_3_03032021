@@ -1,3 +1,4 @@
+/* LOADING SPINNER*/
 .loader {
     position: fixed;
     top: 0;
@@ -13,7 +14,7 @@
     animation: load-main-anim 3s linear both;
     & .spinner-icon {
         position: absolute;
-        top: 450px;
+        top: 45vh;
         font-size: 4.5rem;
         color: $primary-color;
         opacity: 0;
@@ -21,7 +22,7 @@
     }
     & .spinner-circle {
         position: absolute;
-        top: 420px;
+        top: 42vh;
         width: 120px;
         height: 120px;
         border: 4px transparent solid;
@@ -59,6 +60,7 @@
     }
 }
 
+/* CONTENU DE LA PAGE */
 #intro-section {
     text-align: center;
     margin-bottom: 40px;

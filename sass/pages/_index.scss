@@ -207,3 +207,18 @@
         }
     }
 }
+
+/**************** PARTIE RESPONSIVE ****************/
+@media screen and (max-width: 991px) {
+    .funct-card {
+        width: 100%;
+    }
+
+    #restaurants-section__list {
+        padding: 0;
+    }
+    
+    .rest-card {
+        width: 100%;
+    }
+}

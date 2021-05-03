@@ -329,6 +329,7 @@ footer i {
   font-weight: 300;
 }
 
+/**************** PARTIE RESPONSIVE ****************/
 @media screen and (max-width: 991px) {
   .funct-card {
     width: 100%;
@@ -496,6 +497,7 @@ footer i {
     opacity: 1;
   }
 }
+/**************** PARTIE RESPONSIVE ****************/
 @media screen and (max-width: 991px) {
   .menu-section__list {
     flex-direction: column;

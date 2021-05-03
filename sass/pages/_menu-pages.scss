@@ -67,7 +67,7 @@
     opacity: 0;
     overflow: hidden;
     @include box-shadow;
-    animation: fade-in 350ms cubic-bezier(.48,.37,.75,.33) forwards;
+    animation: fade-in 450ms cubic-bezier(.48,.37,.75,.33) forwards;
     @for $i from 1 through 4 {
         &--#{$i} {
             animation-delay: 120ms * $i;

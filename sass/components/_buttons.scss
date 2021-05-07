@@ -49,7 +49,7 @@
         opacity: 0;
         background-image: linear-gradient($primary-color, $secondary-color);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: transparent;
         transform: scale(0);
         transition: all 500ms;
     }

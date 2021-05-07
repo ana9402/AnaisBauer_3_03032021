@@ -1,3 +1,11 @@
 @mixin box-shadow {
     box-shadow: 2px 1px 8px rgb(179, 176, 176);
 }
+
+@mixin home-sect-style {
+    padding: 50px 20px;
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+}

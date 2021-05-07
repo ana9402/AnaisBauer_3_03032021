@@ -11,15 +11,15 @@ footer {
     li {
         font-size: 1rem;
         margin-bottom: 10px;
-    }
-    i {
-        font-size: 0.8rem;
-        margin-right: 7px;
+        i {
+            font-size: 0.8rem;
+            margin-right: 7px;
+        }
     }
 }
 
 .footer__logo {
-    font-family: Shrikhand;
+    font-family: $title-font;
     font-size: 1rem;
     display: flex;
     margin-bottom: 25px;

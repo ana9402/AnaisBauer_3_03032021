@@ -246,6 +246,7 @@ footer i {
   left: -10px;
 }
 .funct-card__label {
+  display: flex;
   margin-left: 10px;
 }
 .funct-card__label i {

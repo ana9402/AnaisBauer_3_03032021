@@ -124,6 +124,7 @@
         left: -10px;
     }
     &__label {
+        display: flex;
         margin-left: 10px;
         i {
             color: grey;

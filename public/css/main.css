@@ -284,6 +284,7 @@ footer i {
   border-radius: 15px;
   position: relative;
   margin-bottom: 25px;
+  overflow: hidden;
   box-shadow: 2px 1px 8px #b3b0b0;
 }
 .rest-card__link {

@@ -163,6 +163,7 @@
     border-radius: 15px;
     position: relative;
     margin-bottom: 25px;
+    overflow: hidden;
     @include box-shadow;
     &__link {
         position: absolute;
